@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Europe Bus</title>
+<link rel="stylesheet" href="UserHome_Css.css">
+</head>
+<body>
+	<header>
+		<h1 class="hd">COACH TOUR BOOKING SYSTEM</h1>
+		<div class="home">
+			<p class="menu">
+				<a href="AdminHome.html">Home</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="adminviewtrainfwd">View Bus</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="adminsearchtrainfwd">Search By Bus No</a>
+			</p>
+		</div>
+
+		<div class="home">
+			<p class="menu">
+				<a href="addtrainfwd">Add Bus</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="cancletrainfwd">Delete Bus </a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="updatetrain">Update Bus Details</a>
+			</p>
+		</div>
+		<div class="home">
+			<p class="menu">
+				<a href="adminlogout">Logout</a>
+			</p>
+		</div>
+	</header>
+	<div class='main'>
+		<p class='menu'> Add Bus </p>
+	</div>
+	<form class="tab" action="adminaddtrain" method="post">
+		<br /> Bus Number:<input type="text" name="trainno"><br />
+		<br /> Bus Name: <input type="text" name="trainname"><br />
+		<br /> From Bus Depot: <input type="text" name="fromstation"><br />
+		<br /> To Bus Depot: <input type="text" name="tostation"><br />
+		<br /> Available: <input type="text" name="available"><br />
+		<br /> Fare (LKR): <input type="text" name="fare"><br />
+		<br /> <input type="submit" value=" ADD BUS ">
+	</form>
+	<br />
+</body>
+</html>
